@@ -1,3 +1,4 @@
+import 'package:aro/screen/nav_screen.dart';
 import 'package:flutter/material.dart';
 
 class ButtonWidgets extends StatelessWidget {
@@ -10,6 +11,12 @@ class ButtonWidgets extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 padding: EdgeInsets.only(top: 8),
                 height: 90.0,
@@ -35,6 +42,12 @@ class ButtonWidgets extends StatelessWidget {
               ),
             ),
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 height: 90.0,
                 width: 90.0,
@@ -67,6 +80,12 @@ class ButtonWidgets extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 height: 90.0,
                 width: 90.0,
@@ -93,6 +112,12 @@ class ButtonWidgets extends StatelessWidget {
               ),
             ),
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 height: 90.0,
                 width: 90.0,
@@ -125,6 +150,12 @@ class ButtonWidgets extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 height: 90.0,
                 width: 90,
@@ -151,6 +182,12 @@ class ButtonWidgets extends StatelessWidget {
               ),
             ),
             InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) {
+                  return NavScreen();
+                }));
+              },
               child: Container(
                 alignment: Alignment.center,
                 height: 90.0,
